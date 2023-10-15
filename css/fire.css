@@ -1,0 +1,212 @@
+/* 页面版心 */
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+/* #region头部区域start */
+.topbar {
+    height: 92px;
+}
+.header {
+    height: 92px;
+}
+.logo {
+    width: 160px;
+    height: 92px;
+}
+.nav-list {
+    width: 715px;
+    height: 92px;
+}
+.nav-list li {
+    float: left;
+}
+.nav-list li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 32px;
+    width: 118px;
+    height: 60px;
+    line-height: 24px;
+}
+.nav-list li a:hover {
+    background:  #aa4141;
+    color: #fff;
+    transition: all 0.3s;
+}
+.search {
+    margin-left: 590px;
+    margin-top: 18px;
+    width: 216px;
+    height: 45px;
+}
+input[type=text] {
+    padding: 6px;
+    margin-left: 5px;
+    margin-top: 13px;
+    font-style: 17px;
+    display: inline-block;
+    height: 20px;
+}
+.search button {
+    padding: 6px 10px;
+    margin-top: 13px;
+    background: #314507;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    display: inline-block;
+}
+.register {
+    margin-left: 1000px;
+    width: 200px;
+    height: 30px;
+}
+.register a {
+    font-weight: bold;
+    font-style: 17px;
+}
+.register i {
+    cursor: pointer;
+}
+.register .login {
+    margin-left: 20px;
+}
+.register a {
+    color: #fff;
+}
+/* #endregion头部区域end */
+
+/* 异火背景 */
+.fire-bg {
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+}
+.fire-bg h3 {
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    opacity: 0.6;
+}
+.fire-bg .fire {
+    height: 300px;
+}
+.main-content {
+    margin-top: 5px;
+}
+/* 异火照片墙 */
+.grid-container {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(6,200px);
+    grid-template-rows: repeat(6,150px);
+    grid-gap: 20px;
+    /* border: 1px dashed; */
+}
+.grid-item {
+    border: 1px solid;
+    color: #fff;
+    background-color: gray;
+    border-radius: 5%;
+    position: relative;
+}
+.grid-item .fire-detail {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    background-color: #202030;
+    position: absolute;
+    display: none;
+    opacity: 0.8;
+}
+.fire-outer {
+    margin-top: 20%;
+}
+.fire-detail h1 {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+.fire-detail p {
+    font-weight: bold;
+    font-size: 15px;
+}
+.fire-detail:hover {
+    display: block;
+}
+.grid-item:hover {
+    /* width: 110%;
+    height: 110%; */
+    /* background-color: green; */
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px black;
+    opacity: 1;
+}
+.grid-item:hover .fire-detail {
+    display: block;
+    border-radius: 5%;
+    transition: all .3s;
+}
+.grid-item:nth-child(1) {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.grid-item:nth-child(2) {
+    grid-row: 1/4;
+    grid-column: 2/5;
+}
+.grid-item:nth-child(3) {
+    grid-row: 1/3;
+    grid-column: 5/7;
+}
+.grid-item:nth-child(8) {
+    grid-row: 4/7;
+    grid-column: 1/4;
+}
+.grid-item:nth-child(9) {
+    grid-row: 4/7;
+    grid-column: 4/7;
+}
+.grid-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+/* 底部 */
+.foot {
+    height: 150px;
+    margin-top: 10px;
+    background-color: #494949;
+}
+.footer {
+    height: 100%;
+}
+.footer .copyright {
+    font-weight: bold;
+    font-size: 17px;
+    color: #fff;
+}
+.wechat {
+    width: 150px;
+    height: 150px;
+    margin-left: 25px;
+}
+.copyright {
+    margin-left: 375px;
+    margin-top: 51px;
+}
+.footer .qq {
+    margin-left: 20px;
+    border-radius: 5%;
+}
+.footer img {
+    border-radius: 10%;
+}

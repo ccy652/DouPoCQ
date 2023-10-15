@@ -1,0 +1,203 @@
+/* 页面版心 */
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+/* #region头部区域start */
+.topbar {
+    height: 92px;
+}
+.header {
+    height: 92px;
+}
+.logo {
+    width: 160px;
+    height: 92px;
+}
+.nav-list {
+    width: 715px;
+    height: 92px;
+}
+.nav-list li {
+    float: left;
+}
+.nav-list li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 32px;
+    width: 118px;
+    height: 60px;
+    line-height: 24px;
+}
+.nav-list li a:hover {
+    background:  #aa4141;
+    color: #fff;
+    transition: all 0.3s;
+}
+.search {
+    margin-left: 590px;
+    margin-top: 18px;
+    width: 216px;
+    height: 45px;
+}
+input[type=text] {
+    padding: 6px;
+    margin-left: 5px;
+    margin-top: 13px;
+    font-style: 17px;
+    display: inline-block;
+    height: 20px;
+}
+.search button {
+    padding: 6px 10px;
+    margin-top: 13px;
+    background: #314507;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    display: inline-block;
+}
+.register {
+    margin-left: 1000px;
+    width: 200px;
+    height: 30px;
+}
+.register a {
+    font-weight: bold;
+    font-style: 17px;
+}
+.register i {
+    cursor: pointer;
+}
+.register .login {
+    margin-left: 20px;
+}
+.register a {
+    color: #fff;
+}
+/* #endregion头部区域end */
+
+/* 人物介绍头部背景 */
+.character-bg {
+    height: 150px;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+}
+.character-bg h3{
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+.main-content .characters {
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-content .characters .flex-item {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    margin-top: 5px;
+    /* background-color: yellow; */
+}
+
+/* 人物介绍详情部分 */
+.characters .flex-item .image {
+    width: 150px;
+    height: 100%;
+    margin-left: 30px;
+    margin-right: 45px;
+    border-radius: 5%;
+    background-color: green;
+}
+.characters .flex-item .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.characters .flex-item .detail {
+    width: 1000px;
+    height: 100%;
+    /* background-color: yellowgreen; */
+}
+.characters .flex-item .detail h3 {
+    font-weight: bold;
+    font-size: 20px;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+}
+.characters .flex-item .detail p {
+    text-indent: 2em;
+    font-size: 16px;
+}
+.second {
+    margin-left: 30px;
+}
+.fourth {
+    margin-left: 30px;
+}
+/* 故事介绍渐变背景 */
+.flex-item:nth-child(1) .detail {
+    background-color: #3EECAC;
+    background-image: linear-gradient(19deg, #3EECAC 0%, #EE74E1 100%);
+
+}
+.flex-item:nth-child(2) .detail {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+
+}
+.flex-item:nth-child(3) .detail {
+    background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+    
+
+
+}
+.flex-item:nth-child(4) .detail {
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+
+}
+.flex-item:nth-child(5) .detail {
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+
+
+}
+/* 底部 */
+.foot {
+    height: 150px;
+    margin-top: 10px;
+    background-color: #494949;
+}
+.footer {
+    height: 100%;
+}
+.footer .copyright {
+    font-weight: bold;
+    font-size: 17px;
+    color: #fff;
+}
+.wechat {
+    width: 150px;
+    height: 150px;
+    margin-left: 25px;
+}
+.copyright {
+    margin-left: 375px;
+    margin-top: 51px;
+}
+.footer .qq {
+    margin-left: 20px;
+    border-radius: 5%;
+}
+.footer img {
+    border-radius: 10%;
+}

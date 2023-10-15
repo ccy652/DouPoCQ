@@ -1,0 +1,171 @@
+/* 页面版心 */
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+/* #region头部区域start */
+.topbar {
+    height: 92px;
+}
+.header {
+    height: 92px;
+}
+.logo {
+    width: 160px;
+    height: 92px;
+}
+.nav-list {
+    width: 715px;
+    height: 92px;
+}
+.nav-list li {
+    float: left;
+}
+.nav-list li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 32px;
+    width: 118px;
+    height: 60px;
+    line-height: 24px;
+}
+.nav-list li a:hover {
+    background:  #aa4141;
+    color: #fff;
+    transition: all 0.3s;
+}
+.search {
+    margin-left: 590px;
+    margin-top: 18px;
+    width: 216px;
+    height: 45px;
+}
+input[type=text] {
+    padding: 6px;
+    margin-left: 5px;
+    margin-top: 13px;
+    font-style: 17px;
+    display: inline-block;
+    height: 20px;
+}
+.search button {
+    padding: 6px 10px;
+    margin-top: 13px;
+    background: #314507;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    display: inline-block;
+}
+.register {
+    margin-left: 1000px;
+    width: 200px;
+    height: 30px;
+}
+.register a {
+    font-weight: bold;
+    font-style: 17px;
+}
+.register i {
+    cursor: pointer;
+}
+.register .login {
+    margin-left: 20px;
+}
+.register a {
+    color: #fff;
+}
+/* #endregion头部区域end */
+
+/* 壁纸库背景图片 */
+.pictures-bg {
+    background-color: yellowgreen;
+    height: 200px;
+}
+.pictures-bg p {
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    opacity: 0.5;
+    color: #fff;
+}
+.main-content {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-item {
+    width: 375px;
+    height: 250px;
+    margin-left: 47px;
+    margin-bottom: 10px;
+    position: relative;
+    background-color: gray;
+}
+.flex-item img {
+    width: 375px;
+    height: 250px;
+}
+.flex-item .download {
+    position: absolute;
+    left: 5px;
+    bottom: 2px;
+    opacity: 0.8;
+}
+.flex-item .likes {
+    position: absolute;
+    right: 5px;
+    bottom: 2px;
+    opacity: 0.8;
+}
+.flex-item .download button{
+    width: 50px;
+    height: 25px;
+    cursor: pointer;
+}
+.flex-item .likes button {
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+}
+.flex-item:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
+    box-shadow: 0px 0px 20px black;
+    opacity: 1;
+}
+
+/* 底部 */
+.foot {
+    height: 150px;
+    margin-top: 10px;
+    background-color: #494949;
+}
+.footer {
+    height: 100%;
+}
+.footer .copyright {
+    font-weight: bold;
+    font-size: 17px;
+    color: #fff;
+}
+.wechat {
+    width: 150px;
+    height: 150px;
+    margin-left: 25px;
+}
+.copyright {
+    margin-left: 375px;
+    margin-top: 51px;
+}
+.footer .qq {
+    margin-left: 20px;
+    border-radius: 5%;
+}
+.footer img {
+    border-radius: 10%;
+}
